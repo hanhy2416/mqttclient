@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mqtt-client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\mqtt\;CMake Files\test\;CMake Files\test\emqx\;CMake Files\test\onenet\;CMake Files\test\baidu\;CMake Files\test\ali\;CMake Files\test\my\;CMake Files\platform\;CMake Files\platform\linux\;CMake Files\network\;CMake Files\network\mbedtls\;CMake Files\network\mbedtls\library\;CMake Files\network\mbedtls\include\;CMake Files\network\mbedtls\wrapper\;CMake Files\common\;CMake Files\common\log\;CMake Files\common\log\arch\;CMake Files\common\log\arch\linux\;CMake Files\mqttclient\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqtt">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libmqtt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 mqtt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqtt/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libmqtt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 mqtt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqtt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="emqx">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/emqx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 emqx"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="emqx/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/emqx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 emqx/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/emqx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onenet">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/onenet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 onenet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onenet/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/onenet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 onenet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/onenet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="baidu">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/baidu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 baidu"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="baidu/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/baidu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 baidu/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/baidu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ali">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/ali" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 ali"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ali/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/ali" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 ali/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/ali/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test_sub">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/my_test_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 my_test_sub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test_sub/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/my_test_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 my_test_sub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test_pub">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/my_test_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 my_test_pub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test_pub/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/bin/my_test_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/build/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 my_test_pub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/test/my/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platform">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libplatform.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 platform"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platform/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libplatform.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 platform/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/platform/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libnetwork.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 network"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libnetwork.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 network/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedtls">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libmbedtls.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include/mbedtls"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/configs"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedtls/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libmbedtls.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include/mbedtls"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/configs"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wrapper">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libwrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include/mbedtls"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/configs"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 wrapper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wrapper/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libwrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include/mbedtls"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/configs"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 wrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/network/mbedtls/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="salof">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libsalof.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 salof"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="salof/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libsalof.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 salof/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arch">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libarch.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 arch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arch/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libarch.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 arch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/common/log/arch/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqttclient">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libmqttclient.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 mqttclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqttclient/fast">
+				<Option output="/mnt/d/ubuntu_workplace/mqttclient/build/lib/libmqttclient.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/foo/bar"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqtt"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/platform/linux"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/log"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/mqttclient"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/test"/>
+					<Add directory="/mnt/d/ubuntu_workplace/mqttclient/common/PLOOC"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 mqttclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/ubuntu_workplace/mqttclient/cmake-build-debug/mqttclient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/arch/linux/arch.c">
+			<Option target="arch"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/fifo.c">
+			<Option target="salof"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/fifo.h">
+			<Option target="salof"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/format.c">
+			<Option target="salof"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/format.h">
+			<Option target="salof"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/salof.c">
+			<Option target="salof"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/salof.h">
+			<Option target="salof"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/mqtt_list.c">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/mqtt_list.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/random.c">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/random.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTConnectClient.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTConnectServer.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTDeserializePublish.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTFormat.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTFormat.h">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTPacket.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTPacket.h">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTSerializePublish.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTSubscribeClient.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTSubscribeServer.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTUnsubscribeClient.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/MQTTUnsubscribeServer.c">
+			<Option target="mqtt"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqttclient/mqttclient.c">
+			<Option target="mqttclient"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqttclient/mqttclient.h">
+			<Option target="mqttclient"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/aes.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/aesni.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/arc4.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/aria.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/asn1parse.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/asn1write.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/base64.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/bignum.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/blowfish.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/camellia.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ccm.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/certs.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/chacha20.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/chachapoly.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/cipher.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/cipher_wrap.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/cmac.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ctr_drbg.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/debug.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/des.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/dhm.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ecdh.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ecdsa.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ecjpake.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ecp.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ecp_curves.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/entropy.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/entropy_poll.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/error.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/gcm.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/havege.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/hkdf.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/hmac_drbg.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/md.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/md2.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/md4.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/md5.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/md_wrap.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/memory_buffer_alloc.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/net_sockets.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/nist_kw.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/oid.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/padlock.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pem.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pk.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pk_wrap.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pkcs11.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pkcs12.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pkcs5.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pkparse.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/pkwrite.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/platform.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/platform_util.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/poly1305.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ripemd160.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/rsa.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/rsa_internal.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/sha1.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/sha256.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/sha512.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_cache.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_ciphersuites.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_cli.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_cookie.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_srv.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_ticket.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/ssl_tls.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/threading.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/timing.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/version.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/version_features.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509_create.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509_crl.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509_crt.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509_csr.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509write_crt.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/x509write_csr.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/xtea.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper/entropy_hardware_alt.c">
+			<Option target="wrapper"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper/net_sockets_alt.c">
+			<Option target="wrapper"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper/timing_alt.c">
+			<Option target="wrapper"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper/timing_alt.h">
+			<Option target="wrapper"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/nettype_tcp.c">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/nettype_tcp.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/nettype_tls.c">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/nettype_tls.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/network.c">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/network.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_memory.c">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_memory.h">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_mutex.c">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_mutex.h">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_net_socket.c">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_net_socket.h">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_thread.c">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_thread.h">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_timer.c">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/platform_timer.h">
+			<Option target="platform"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/ali/test.c">
+			<Option target="ali"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/baidu/test.c">
+			<Option target="baidu"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/emqx/test.c">
+			<Option target="emqx"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/emqx/test_ca.c">
+			<Option target="emqx"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/my/my_test_pub.c">
+			<Option target="my_test_pub"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/my/my_test_sub.c">
+			<Option target="my_test_sub"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/onenet/test.c">
+			<Option target="onenet"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqtt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mqtt\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/emqx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\emqx\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/onenet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\onenet\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/baidu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\baidu\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/ali/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\ali\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/test/my/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\my\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\platform\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/platform/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\platform\linux\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\mbedtls\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\mbedtls\library\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\mbedtls\include\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/network/mbedtls/wrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\mbedtls\wrapper\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\log\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/arch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\log\arch\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/common/log/arch/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\log\arch\linux\"/>
+		</Unit>
+		<Unit filename="/mnt/d/ubuntu_workplace/mqttclient/mqttclient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mqttclient\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

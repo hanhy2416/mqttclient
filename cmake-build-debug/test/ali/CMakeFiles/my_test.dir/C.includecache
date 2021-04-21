@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/ubuntu_workplace/mqttclient/test/ali/my_test.c
+fcntl.h
+-
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

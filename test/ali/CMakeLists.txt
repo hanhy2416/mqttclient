@@ -1,12 +1,18 @@
+
+include_directories(SYSTEM "/foo/bar")
+
 aux_source_directory(. DIR_SRCS)
 
 set(INCDIRS ${CMAKE_CURRENT_SOURCE_DIR})
 
-add_executable("ali" ${DIR_SRCS})
+message("${CMAKE_CURRENT_SOURCE_DIR} ali")
 
-foreach(findlib ${LIBNAMES})
-    target_link_libraries("ali" ${findlib})
-endforeach()
+add_executable(ali test.c)
 
-find_package("Threads")
-target_link_libraries("ali" ${CMAKE_THREAD_LIBS_INIT})
+
+foreach (findlib ${LIBNAMES})
+    target_link_libraries(ali ${findlib})
+endforeach ()
+
+find_package(Threads)
+target_link_libraries(ali ${CMAKE_THREAD_LIBS_INIT})

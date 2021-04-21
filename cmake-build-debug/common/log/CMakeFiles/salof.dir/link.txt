@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libsalof.a  CMakeFiles/salof.dir/fifo.c.o CMakeFiles/salof.dir/format.c.o CMakeFiles/salof.dir/salof.c.o
+/usr/bin/ranlib ../../../build/lib/libsalof.a

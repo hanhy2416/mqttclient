@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/lib/libnetwork.a  CMakeFiles/network.dir/nettype_tcp.c.o CMakeFiles/network.dir/nettype_tls.c.o CMakeFiles/network.dir/network.c.o
+/usr/bin/ranlib ../../build/lib/libnetwork.a

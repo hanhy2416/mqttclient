@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/lib/libcommon.a  CMakeFiles/common.dir/mqtt_list.c.o CMakeFiles/common.dir/random.c.o
+/usr/bin/ranlib ../../build/lib/libcommon.a

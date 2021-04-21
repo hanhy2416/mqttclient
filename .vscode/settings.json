@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "mqttclient.h": "c",
+        "platform_timer.h": "c",
+        "mqtt_defconfig.h": "c",
+        "mqtt_config.h": "c"
+    }
+}

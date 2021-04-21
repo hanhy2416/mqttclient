@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libplatform.a  CMakeFiles/platform.dir/platform_memory.c.o CMakeFiles/platform.dir/platform_mutex.c.o CMakeFiles/platform.dir/platform_net_socket.c.o CMakeFiles/platform.dir/platform_thread.c.o CMakeFiles/platform.dir/platform_timer.c.o
+/usr/bin/ranlib ../../../build/lib/libplatform.a

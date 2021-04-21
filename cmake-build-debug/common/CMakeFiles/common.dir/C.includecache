@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../platform/linux/platform_memory.h
+stdlib.h
+-
+stdio.h
+-
+stddef.h
+-
+
+../platform/linux/platform_timer.h
+sys/time.h
+-
+stdio.h
+-
+unistd.h
+-
+time.h
+-
+
+/mnt/d/ubuntu_workplace/mqttclient/common/mqtt_list.c
+mqtt_list.h
+/mnt/d/ubuntu_workplace/mqttclient/common/mqtt_list.h
+
+/mnt/d/ubuntu_workplace/mqttclient/common/mqtt_list.h
+
+/mnt/d/ubuntu_workplace/mqttclient/common/random.c
+stdlib.h
+-
+random.h
+/mnt/d/ubuntu_workplace/mqttclient/common/random.h
+platform_timer.h
+/mnt/d/ubuntu_workplace/mqttclient/common/platform_timer.h
+platform_memory.h
+/mnt/d/ubuntu_workplace/mqttclient/common/platform_memory.h
+
+/mnt/d/ubuntu_workplace/mqttclient/common/random.h
+

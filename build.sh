@@ -1,6 +1,6 @@
 #!/bin/bash
-
 mkdir -p build build/bin build/lib
+
 cd build
 
 if [ " $1" == " " ]; then
